@@ -1,6 +1,8 @@
-node_modules
-bower_components
-dist
-*.log
+.DS_Store
+.svn
+log/*.log
+tmp/**
+node_modules/
 .sass-cache
-index.html
+css/reveal.min.css
+js/reveal.min.js

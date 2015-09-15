@@ -1,9 +1,0 @@
-{
-  "generator-reveal": {
-    "presentationTitle": "BrazilJS 2015 Highlights",
-    "packageVersion": "1.0.0",
-    "revealTheme": "night",
-    "useSass": false,
-    "deployToGithubPages": false
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "brazil-j-s-2015-highlights",
-  "version": "1.0.0",
-  "dependencies": {
-    "reveal.js": "~3.1.0",
-    "highlightjs": "~8.5.0"
-  }
-}
