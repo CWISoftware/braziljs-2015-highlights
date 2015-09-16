@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 
 	<head>
 		<meta charset="utf-8">
@@ -43,6 +43,7 @@
 					<h3>Highlights</h3>
 				</section>
 
+				<!-- Sumário -->
 				<section>
 					<h2>Sumário</h2>
 
@@ -57,9 +58,6 @@
               Otimização de caminho crítico
             </li>
             <li>
-              Reduce
-            </li>
-            <li>
               Node.js + WebSockets
             </li>
 					</ul>
@@ -68,6 +66,7 @@
         <!-- Web Workers -->
         <section data-transition="fade-in slide-out">
           <h2>Web Workers</h2>
+					<h5>Damian Schenkelman</h5>
           <p class="fragment">
             Multi-threading no browser
           </p>
@@ -119,6 +118,7 @@ onmessage = function (e) {
         <!-- Web Assembly -->
         <section data-transition="fade-in slide-out">
           <h2>WebAssembly</h2>
+					<h5>Damian Schenkelman</h5>
           <p class="fragment">
             Novo formato binário compátivel entre browsers
           </p>
@@ -140,6 +140,7 @@ onmessage = function (e) {
         <section data-transition="fade-in slide-out">
           <section>
             <h2>Otimização de caminho crítico</h2>
+						<h5 class="author">Nicolas Bevacqua</h5>
           </section>
           <section>
             <h2>O que é caminho crítico?</h2>
@@ -182,39 +183,12 @@ onmessage = function (e) {
           </section>
         </section>
 
-        <!-- Reduce -->
-        <section>
-          <h2>Reduce</h2>
+				<!-- Node.js + WebSockets -->
+        <section data-transition="fade-in slide-out">
           <section>
+						<h2>Node.js + WebSockets</h2>
+						<h5>Fernando Miçalli</h5>
             <p class="fragment">
-              reduce<br>
-              <code>array.reduce(callback[, initialValue])</code>
-            </p>
-            <p class="fragment">
-              callback<br>
-              <code>callback(previousValue, currentValue, index, array)</code>
-            </p>
-          </section>
-          <section>
-            <h2>Exemplo</h2>
-            <pre>
-              <code>
-var array = [1, 2, 3],
-initial = 4;
-
-array.reduce(function (previous, current, index, array) {
-  console.log('index [', index, '] --> previous', previous, 'current', current, 'array', array);
-  return previous + current;
-}, initial); // 10
-              </code>
-            </pre>
-          </section>
-        </section>
-
-        <section>
-          <h2>Node.js + WebSockets</h2>
-          <section>
-            <p>
               Aplicações em tempo real
             </p>
             <p class="fragment">
@@ -231,9 +205,9 @@ array.reduce(function (previous, current, index, array) {
             </p>
           </section>
           <section>
-            <p>
+            <h3>
               Como servir milhões de conexões simultâneas sem ir a falência?
-            </p>
+            </h3>
             <p class="fragment">
               WebSockets to the rescue!
             </p>
@@ -251,6 +225,7 @@ array.reduce(function (previous, current, index, array) {
             </p>
           </section>
           <section>
+						<h3>Algumas libs parra trabalhar com WebSockets</h3>
             <p>
               <a href="https://github.com/socketio/socket.io" target="_blank">socket.io</a>
             </p>
@@ -265,9 +240,11 @@ array.reduce(function (previous, current, index, array) {
             </p>
           </section>
         </section>
-        <section>
+
+				<!-- Fim -->
+				<section data-transition="fade-in slide-out">
           <h2>Always bet on JS!</h2>
-          <a href="https://github.com/CWISoftware/braziljs-2015-highlights" target="_blank">CWISoftware/braziljs-2015-highlights</a>
+          <img class="ghlogo" width="32" height="32" src="assets/github-logo.png"/>&nbsp;<a href="https://github.com/CWISoftware/braziljs-2015-highlights" target="_blank">CWISoftware/braziljs-2015-highlights</a>
         </section>
       </div>
 		</div>
